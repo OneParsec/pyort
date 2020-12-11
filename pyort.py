@@ -17,6 +17,7 @@ home = expanduser("~")
 package = str(args.package)
 folder = home + "/" + "." + package + ".Pyort"
 link = "https://aur.archlinux.org/packages/" + package
+print(G + "==> " + C + "Clearing cache " + W)
 clearcmd = "sudo rm -r " + folder
 os.system(clearcmd)
 

@@ -4,7 +4,7 @@ Pyort - AUR helper, written by Python
 # How to build and install
 
 ```
-sudo pacman -S python python-pip --needed
+sudo pacman -S git python python-pip --needed
 pip install pyinstaller
 git clone https://github.com/OneParsec/pyort
 cd pyort

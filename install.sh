@@ -1,3 +1,4 @@
+pip install -r requirements.txt
 pyinstaller -F pyort.py
 cd dist
 sudo cp pyort /usr/bin/

@@ -6,5 +6,5 @@ echo "Cleaning cache!"
 cd ..
 rm -r build dist pyort.spec
 cd ..
-rm -r pyort
+sudo rm -r pyort
 echo "Installation is complete!"
